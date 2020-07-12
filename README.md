@@ -29,7 +29,15 @@ Model is trained over 5000 images of each categories('Parasite' and 'Uninfected'
 
 We have also accuracyVSepoch and lossVSepoch curves of both test and train datasets. Go check it out----train the model, save it, and try predicting by your own.
 
-REQUIREMENTS---- keras 2.3.1,
+REQUIREMENTS---- 
+![alt text](https://github.com/shalom217/images/blob/master/cuda_logo.png)
+![alt text](https://github.com/shalom217/images/blob/master/image_net_logo.jpg)
+![alt text](https://github.com/shalom217/images/blob/master/keras_logo.png)
+![alt text](https://github.com/shalom217/images/blob/master/opencv_logo.png)
+![alt text](https://github.com/shalom217/images/blob/master/python_logo.jpg)
+![alt text](https://github.com/shalom217/images/blob/master/tf_logo.png)
+
+keras 2.3.1,
 python 3.7, tensorflow 2.0.0, cuda installed, openCV 4.1.1.26, imagenet weights.
 
 Here the results--------------
