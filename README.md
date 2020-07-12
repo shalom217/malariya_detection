@@ -30,7 +30,7 @@ Model is trained over 5000 images of each categories('Parasite' and 'Uninfected'
 We have also accuracyVSepoch and lossVSepoch curves of both test and train datasets. Go check it out----train the model, save it, and try predicting by your own.
 
 REQUIREMENTS---- 
-![alt text](https://github.com/shalom217/images/blob/master/cuda_logo.png)
+![alt text](https://github.com/shalom217/images/blob/master/cuda_logo1.png)
 ![alt text](https://github.com/shalom217/images/blob/master/image_net_logo.jpg)
 ![alt text](https://github.com/shalom217/images/blob/master/keras_logo.png)
 ![alt text](https://github.com/shalom217/images/blob/master/opencv_logo.png)
