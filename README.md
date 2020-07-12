@@ -14,11 +14,14 @@ This classifier is built using Transfer Learning techinque on one of the famous 
 ![alt text](https://github.com/shalom217/Transfer_learning/blob/master/transfer_l.jpeg)
 
 
-Here a detailed comparision between old/default VGG19model(which was built to classify 1000 categories) and our custom model using trained weights of VGG19model and classifying only 2 classes('Parasite', 'Uninfected').Have a look-----
+Here a detailed comparision between old/default VGG19model(which was built to classify 1000 categories) and our custom model using trained weights of VGG19model and classifying only 2 classes('Parasite' and 'Uninfected').Have a look-----
 ![alt text](https://github.com/shalom217/malariya_detection/blob/master/COMPARISION.png)
 
 Here we implementing(optimizer = 'adam') with Callbacks method having (EarlyStopping=83% accuracy and ModelCheckpoint=81% accuracy).Here Accuracy log is shown-----
 ![alt text](https://github.com/shalom217/malariya_detection/blob/master/accuracy_log1.png)
+
+Model is trained over 5000 images of each categories('Parasite' and 'Uninfected')
+
 
 ![alt text](https://github.com/shalom217/malariya_detection/blob/master/accVSepoch1.png)
 ![alt text](https://github.com/shalom217/malariya_detection/blob/master/lossVSepoch1.png)
