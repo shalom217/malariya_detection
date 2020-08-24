@@ -35,6 +35,14 @@ def draw_test(name, pred, im,Pred_val):
     expanded_image = cv2.copyMakeBorder(im, 0, 0, 500, 550 ,cv2.BORDER_CONSTANT,value=BLACK)
     cv2.putText(expanded_image, check+str(Pred_val)+str("%"), (152, 60) , cv2.FONT_HERSHEY_COMPLEX_SMALL,4, (0,255,0), 2)
     cv2.imshow(name, expanded_image)
+    
+'''Another method to read files directly from a dir with readable paths
+li=[]    
+for file in file_names: 
+    a=join(mypath,file)
+    li.append(a)
+    input_im_check=cv2.imread(li[0])
+'''   
   
 for file in file_names: 
     
