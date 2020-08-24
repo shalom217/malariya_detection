@@ -219,7 +219,7 @@ input_original = input_im.copy()
 input_original = cv2.resize(input_original, None, fx=0.5, fy=0.5, interpolation = cv2.INTER_LINEAR)
 
 input_im = cv2.resize(input_im, (224, 224), interpolation = cv2.INTER_LINEAR)
-input_im = input_im / 255.
+input_im = input_im / 255.#part of image processing (we also did the same in data augmentation while training)
 input_im = input_im.reshape(1,224,224,3) 
 
 # Get Prediction
@@ -247,7 +247,7 @@ img = image.load_img(image_path, target_size=(224, 224))
 x = image.img_to_array(img)
 # x = np.true_divide(x, 255)
 ## Scaling
-x=x/255
+x=x/255#part of image processing (we also did the same in data augmentation while training)
 x = np.expand_dims(x, axis=0)
    
 
