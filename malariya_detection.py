@@ -259,9 +259,9 @@ preds = classifier.predict(x)
 preds=np.argmax(preds, axis=1)
 if preds==0:
     
-    print("The Person is Infected With Pneumonia")
+    print("The Person is Infected")
 else:
-    print("The Person is not Infected With Pneumonia")
+    print("The Person is not Infected")
 
 
 
