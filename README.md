@@ -48,5 +48,10 @@ python 3.7, tensorflow 2.0.0, cuda installed, openCV 4.1.1.26, imagenet weights.
 
 ![alt text](https://github.com/shalom217/malariya_detection/blob/master/pred2.png)
 
+# Deployment
+As it is a end to end application, so i've also made an API. The front end of the API created using streamlit library.
+![alt text](https://github.com/shalom217/malariya_detection/blob/master/stDL.png)
+
+
 
 
