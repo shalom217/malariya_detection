@@ -5,6 +5,7 @@
 Malaria is a disease of the blood that is caused by the Plasmodium parasite, which is transmitted from person to person by a particular type of mosquito.
 Malaria is one of the world’s deadliest diseases, and remains one of the top child killers on the planet. Malaria also keeps children from going to school, families from investing in their future, and communities from prospering, taking a huge toll on lives, livelihoods and countries’ progress.
 
+![alt text](https://github.com/shalom217/malariya_detection/blob/master/pngegg.png)
 
 
 # Dataset
@@ -50,7 +51,7 @@ python 3.7, tensorflow 2.0.0, cuda installed, openCV 4.1.1.26, imagenet weights.
 
 # Deployment
 As it is a end to end application, so i've also made an API. The front end of the API created using streamlit library.
-![alt text](https://github.com/shalom217/malariya_detection/blob/master/stDL.png)
+![alt text](https://github.com/shalom217/malariya_detection/blob/master/stDL2.png)
 
 
 
